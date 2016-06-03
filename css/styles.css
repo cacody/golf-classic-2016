@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Google Fonts */
+.Dosis {font-family: 'Dosis', sans-serif; font-weight: 800;}
+.Lato {font-family: 'Lato', sans-serif;}
+
+body {
+	font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+p, ul {
+    font-size: 1.5em;
+}
+a {
+    color: #8baea2;
+}
+
+a:hover {
+    
+    color: #ffcb05;
+}
+
+a.btn.btn-lg:hover {
+    color: #ffcb05;
+}
+
+
+h1, h2 {
+    text-align: center;
+    padding: 30px;
+	font-family: 'Dosis', sans-serif;
+    margin-top:0;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #1a411d;
+}
+
+h4 {
+    font-size: 1.7em;
+}
+
+.panel-title {
+    
+    font-size: 1.8em;
+}
+/* Front page Center Block */
+.vertical-center {
+padding: 20%;
+}
+
+.horiz-center {
+    text-align: center;
+}
+
+/*overwrite bootstrap default nav style*/
+.navbar-inverse .navbar-nav>li>a{color:#2930b1;}
+
+
+
+#navbar1 {
+    margin: 0;
+    border: 0;
+}
+
+
+.table {
+    display: table;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    .hidden-600 {
+        display:none !important;
+    }
+}
+
+img {
+     vertical-align: middle;
+     border: 0;
+     page-break-inside: avoid;
+     max-width: 100%;
+     }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+/* Typography */
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #00274c;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffcb05;
+}
+
+@media (max-width:600px) {
+ .navbar-inverse .navbar-nav>li>a {
+    color: #00274c;
+    background-color: rgba(240, 240, 240, 0.35)
+}   
+    
+}
+
+
+.jumbo-text {
+	font-size:7em;
+}
+@media (max-width:600px) {
+   .jumbo-text {
+	font-size:3em;
+} 
+}
+
+
+.big-text {
+    font-size: 4em;
+}
+
+.standard-text {
+	font-size:1.3em;
+}
+
+.white-text {
+	color:#fff;
+}
+
+.blue-text {
+	color:#00274c;
+}
+
+.yellow-text {
+    color: #ffcb05;
+}
+.brown-text {
+    color: #b17b2f;
+}
+
+.red-text {
+    color: #890b00;
+}
+
+.green-text {
+    color: #1a411d;
+}
+
+/* Front-page center block */
+    .vertical-center-row {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+.semi-trans {
+background-color:rgba(0,0,0,0.35);
+}
+
+.less-trans {
+background-color:rgba(0,0,0,0.65);
+}
+
+
+@media (max-width: 600px) {
+.shrink-text {
+	font-size:1em;
+
+	}
+}
+@media (max-width: 600px) {
+.shrink-graphic {
+padding:80px;
+}
+}
+
+.white-background {
+    background: #fff;
+    background-size: cover;
+}
+
+.black-background {
+    background: #000;
+}
+
+.blue-background {
+    background: #00274c;
+}
+
+.section-header {
+text-align:center; padding:30px; margin-top:-10px;
+}
+
+.basic-border {border: 1px solid #c3c3c3;}
+
+#home {
+    
+   background: url(../images/golf3.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+    
+}
+
+#schedule {
+   background: url(../images/golf4.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    color: #fff;
+}
+
+#directions {
+    background: #fff;
+    padding-bottom: 100px;
+    
+}
+
+#contact {
+       background: url(../images/golf1.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    color: #fff;
+    
+}
+
+#sponsors {
+    background: #e3e3e3;
+}
